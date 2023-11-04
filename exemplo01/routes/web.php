@@ -12,12 +12,24 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+// Rotas com metodos
+Route::get('/', [\App\Http\Controllers\PrincipalController::class, 'principal']);
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('contato', [\App\Http\Controllers\ContatoController::class, 'contato']);
+
+Route::get('sobrenos', [\App\Http\Controllers\SobrenosController::class, 'sobrenos']);
 
 
-Route::get('contato', function () {
-    return view('contato');
-});
+// Route::get('/', function () {
+//     return view('index');
+// });
+
+
+// Route::get('contato', function () {
+//     return view('contato');
+// });
+
+
+// Route::get('sobre', function () {
+//     return view('contato');
+// });
