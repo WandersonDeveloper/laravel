@@ -8,6 +8,6 @@ class SobrenosController extends Controller
 {
     //
     public function sobrenos(){
-    echo " <h1> sobre Nos<h1>";
+   
 }
 }

@@ -10,7 +10,7 @@ class PrincipalController extends Controller
 
     public function principal(){
 
-        echo " <h1> Olá e seja bem vindo ao curso! <h1>";
+       
     
     }
 }
